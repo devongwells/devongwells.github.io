@@ -10,10 +10,6 @@ body {
     display: flex;
 }
 
-.column {
-
-}
-
 .headshot {
     float:left;
     width: 61.8%;
@@ -26,19 +22,9 @@ body {
     padding: 30px;
 }
 
-
-
 button {
     font-family: 'Century Gothic', Arial, sans-serif, sans-serif;
 }
-
-
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
-
 
 header {
     background-color: #333;
