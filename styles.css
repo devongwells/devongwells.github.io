@@ -13,11 +13,19 @@
     width: 100%;
 }
 
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container img {
+    width: 30px;
+}
+
 /* Desktop layout */
 
 body {
     font-family: 'Century Gothic', Arial, sans-serif, sans-serif;
-    src: url("Century Gothic.ttf") format ('ttf');
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -82,7 +90,6 @@ footer {
 
 body {
     font-family: 'Century Gothic', Arial, sans-serif, sans-serif;
-    src: url("Century Gothic.ttf") format ('ttf');
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -115,21 +122,18 @@ header {
 
 h1 {
     font-family: 'Century Gothic', Arial, sans-serif, sans-serif;
-    src: url("Century Gothic.ttf") format ('ttf');
     font-size: 50px;
     color: #333;
 }
 
 h2 {
     font-family: 'Century Gothic', Arial, sans-serif, sans-serif;
-    src: url("Century Gothic.ttf") format ('ttf');
     font-size: 30px;
     color: #333;
 }
 
 footer {
     font-family: 'Century Gothic', Arial, sans-serif, sans-serif;
-    src: url("Century Gothic.ttf") format ('ttf');
     background-color: #333;
     color: #fff;
     text-align: center;
