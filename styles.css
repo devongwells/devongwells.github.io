@@ -1,5 +1,6 @@
 body {
     font-family: 'Century Gothic', Arial, sans-serif, sans-serif;
+    src: url("Century Gothic.ttf") format ('ttf');
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
