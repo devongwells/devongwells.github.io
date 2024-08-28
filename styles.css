@@ -1,10 +1,38 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Century Gothic, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
 }
+
+.row {
+    display: flex;
+}
+
+.column {
+
+}
+
+.headshot {
+    float:left;
+    width: 61.8%;
+    max-width: 1200 px;
+}
+
+.bio {
+    float:right;
+    width: 38.2%;
+    padding: 30px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
 
 header {
     background-color: #333;
