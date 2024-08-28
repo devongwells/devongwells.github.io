@@ -1,4 +1,11 @@
 
+body {
+    font-family: 'Century Gothic', Arial, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;}
+
 * {
     margin: 0;
     padding: 0;
@@ -24,12 +31,6 @@
 
 /* Desktop layout */
 
-body {
-    font-family: 'Century Gothic', Arial, sans-serif, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;}
 
 .headshot {
     float:left;
@@ -46,6 +47,17 @@ body {
 
 }
 
+.bio h1 {
+    font-family: 'Century Gothic', Arial, sans-serif, sans-serif;
+    font-size: 50px;
+    color: #0097b2;
+}
+
+.bio h2 {
+    font-family: 'Century Gothic', Arial, sans-serif, sans-serif;
+    font-size: 30px;
+    color: #333;}
+
     button {
         font-family: 'Century Gothic', Arial, sans-serif, sans-serif;
         font-size: 16px;
@@ -54,20 +66,6 @@ body {
         border: 0px;
         border-radius: 4px;
         padding: 10px;
-}
-
-h1 {
-    font-family: 'Century Gothic', Arial, sans-serif, sans-serif;
-    src: url("Century Gothic.ttf") format ('ttf');
-    font-size: 50px;
-    color: #333;
-}
-
-h2 {
-    font-family: 'Century Gothic', Arial, sans-serif, sans-serif;
-    src: url("Century Gothic.ttf") format ('ttf');
-    font-size: 30px;
-    color: #333;
 }
 
 footer {
