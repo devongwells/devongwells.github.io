@@ -17,6 +17,7 @@ body {
 }
 
 .bio {
+    background-color: white;
     float:right;
     width: 38.2%;
     padding: 30px;
@@ -24,6 +25,12 @@ body {
 
 button {
     font-family: 'Century Gothic', Arial, sans-serif, sans-serif;
+    font-size: 16px;
+    background-color: #0097b2;
+    color: #fff;
+    border: 0px;
+    border-radius: 4px;
+    padding: 10px;
 }
 
 header {
@@ -33,10 +40,15 @@ header {
     text-align: center;
 }
 
-header h1 {
-    margin: 0;
+h1 {
+    font-size: 50px;
+    color: #333;
 }
 
+h2 {
+    font-size: 30px;
+    color: #333;
+}
 nav ul {
     list-style: none;
     padding: 0;
@@ -64,8 +76,7 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: static;
+    padding: 0;
     bottom: 0;
     width: 100%;
 }
