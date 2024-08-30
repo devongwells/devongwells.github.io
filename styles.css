@@ -21,10 +21,11 @@ body {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
+  /*  flex-wrap: wrap; */
+    align-items: stretch;
+    justify-content: space-between;
+  /*  align-items: flex-start; */
+    width: 100%;   
 }
 
 .icon-container {
@@ -35,6 +36,9 @@ body {
 .icon-container img {
     width: 30px;
 }
+
+
+
 
 /* Desktop layout */
 
@@ -50,7 +54,6 @@ body {
     float:right;
     width: 38.2%;
     padding: 80px;
-    height: 100%;
 
 }
 
@@ -91,6 +94,10 @@ footer {
         width: 66%;
         margin: 10px 0;
     }
+}
+
+@media (max-width: 768px) {
+flex-direction: column;
 }
 
 body {
