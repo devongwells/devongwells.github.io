@@ -21,11 +21,16 @@ body {
 
 .row {
     display: flex;
-  /*  flex-wrap: wrap; */
+    flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
-  /*  align-items: flex-start; */
     width: 100%;   
+}
+
+.headshot,
+.bio {
+    padding: 0px;
+    background-color: #fff;
 }
 
 .icon-container {
@@ -37,11 +42,16 @@ body {
     width: 30px;
 }
 
-
-
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+}
 
 /* Desktop layout */
-
 
 .headshot {
     float:left;
@@ -54,7 +64,6 @@ body {
     float:right;
     width: 38.2%;
     padding: 80px;
-
 }
 
 .bio h1 {
@@ -78,16 +87,14 @@ body {
         padding: 10px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 0;
-    bottom: 0;
-    width: 100%;
+/* Mobile layout */
+
+@media (max-width: 768 px) {
+    .row { 
+        flex-direction: column;
+    }
 }
 
-/* Mobile layout */
 @media (max-width: 768px) {
     .headshot,
     .bio {
@@ -97,7 +104,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-flex-direction: column;
+
 }
 
 body {
@@ -116,7 +123,7 @@ body {
     }
 
 button {
-    font-family: ''century_gothicregular', Arial, sans-serif, sans-serif;
+    font-family: 'century_gothicregular', Arial, sans-serif, sans-serif;
     font-size: 16px;
     background-color: #0097b2;
     color: #fff;
