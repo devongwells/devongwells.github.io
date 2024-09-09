@@ -60,7 +60,9 @@ footer {
 }
 
 .blogpost {
-
+    margin: auto;
+    width: 66%;
+    padding-top: 100px;
 }
 
 /* Desktop layout */
