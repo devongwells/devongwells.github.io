@@ -1,30 +1,31 @@
-@font-face {
+/* Global */
+
+/* @font-face {
     font-family: 'century_gothicregular';
     src: url('https://devongwells.github.io/centurygothic-webfont.woff2') format('woff2'),
-         url('https://devongwells.github.io/centurygothic-webfont.woff2') format('woff');
+         url('https://devongwells.github.io/centurygothic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+} */
 
+.row {
+    display: grid;
+    grid-template-columns: 61.8% 38.2%;
+    width: 100%;   
 }
+
 body {
     font-family: 'century_gothicregular', Arial, sans-serif, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #fff;
-    color: #333;}
+    color: #333;
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: space-between;
-    width: 100%;   
 }
 
 .headshot,
@@ -55,14 +56,12 @@ footer {
 
 .headshot {
     float:left;
-    width: 61.8%;
-    max-width: 1200 px;
+    max-width: 1200px;
 }
 
 .bio {
     background-color: rgb(255, 255, 255);
     float:right;
-    width: 38.2%;
     padding: 80px;
 }
 
@@ -89,13 +88,13 @@ footer {
 
 /* Mobile layout */
 
-@media (max-width: 768 px) {
+@media (max-width: 600px) {
     .row { 
         flex-direction: column;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .headshot,
     .bio {
         width: 66%;
@@ -103,7 +102,7 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
 
 }
 
