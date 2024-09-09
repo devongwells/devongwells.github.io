@@ -52,6 +52,17 @@ footer {
     width: 100%;
 }
 
+
+.blog-index{
+    margin: auto;
+    width: 66%;
+    
+}
+
+.blogpost {
+
+}
+
 /* Desktop layout */
 
 .headshot {
