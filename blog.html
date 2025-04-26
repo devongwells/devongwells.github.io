@@ -3,20 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devon Wells</title>
+    <title>Devon Wells | Blog</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<section class="blog">
+    <header>
+        <h1>Devon Wells' Blog</h1>
+        <p>Insights on content marketing, AI/ML, and more.</p>
+    </header>
 
+    <section class="blog-container">
+        <!-- Blog Post 1 -->
+        <div class="blog-post">
+            <h2 class="blog-title">The Power of AI in Content Marketing</h2>
+            <p class="blog-meta">Posted on <span>April 25, 2025</span> | by Devon Wells</p>
+            <p class="blog-excerpt">AI is revolutionizing how content is created, distributed, and personalized. In this post, I explore how businesses can leverage AI tools to boost their content marketing strategies.</p>
+            <a href="/blog/the-power-of-ai-in-content-marketing.html" class="read-more">Read More</a>
+        </div>
 
+        <!-- Blog Post 2 -->
+        <div class="blog-post">
+            <h2 class="blog-title">Marketing Strategies for B2B SaaS Companies</h2>
+            <p class="blog-meta">Posted on <span>April 18, 2025</span> | by Devon Wells</p>
+            <p class="blog-excerpt">B2B SaaS marketing is unique. In this post, I break down effective strategies that have helped SaaS companies grow their user base and drive revenue.</p>
+            <a href="/blog/marketing-strategies-for-b2b-saas-companies.html" class="read-more">Read More</a>
+        </div>
 
+        <!-- Blog Post 3 -->
+        <div class="blog-post">
+            <h2 class="blog-title">Why Content Marketing Will Never Die</h2>
+            <p class="blog-meta">Posted on <span>April 10, 2025</span> | by Devon Wells</p>
+            <p class="blog-excerpt">Despite the rise of AI, content marketing remains a cornerstone of digital marketing. Here, I explain why content marketing is essential and why it’s here to stay.</p>
+            <a href="/blog/why-content-marketing-will-never-die.html" class="read-more">Read More</a>
+        </div>
 
-    
-   
+        <!-- Add more posts as needed -->
+    </section>
+
     <footer>
-        <p>&copy; 2024 Devon Wells. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> Devon Wells. All rights reserved.</p>
     </footer>
-</body>
 
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
 </html>
