@@ -104,12 +104,13 @@ button:hover {
 /* Footer */
 footer {
     font-family: 'century_gothicregular', Arial, sans-serif;
-    background-color: #333;
-    color: #fff;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding-top: 1rem;
+    border-top: 1px solid #ccc; /* Light gray border */
     text-align: center;
-    padding: 10px 0;
-    bottom: 0;
-    width: 100%;
+    font-size: 0.9rem;
+    color: #666; /* Soft gray text */
 }
 
 /* Mobile Responsive */
