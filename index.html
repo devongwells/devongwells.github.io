@@ -1,4 +1,4 @@
-e<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,37 +9,36 @@ e<!DOCTYPE html>
 <body>
     <section class="row">
     <section class="headshot">
-<img src="/images/devon.jpg" width="100%" style="max-width:100%; height:auto;">
+        <img src="/images/devon.jpg" width="100%" style="max-width:100%; height:auto;">
     </section>
 
     <section class="bio">
-        
         <h1>Devon Wells</h1><br>
         <h2>Content Marketing for the AI/ML Revolution</h2><br>
-       
-        <br>
         <p>I&#8217;m a seasoned marketer with 10 years&#8217; experience running digital programs and
             communications for B2B SaaS leaders, driving millions of dollars in sales pipeline. My
             contributions have resulted in 11x growth in website traffic, #1 keyword rankings, and 35.8%
             click-through rates.</p>
-<br>
-            <button>View My Portfolio</button>
-<br>
-<br>
+        <br>
+        <button onclick="window.location.href='portfolio.html'">View My Portfolio</button>
+        <br><br>
+        <button onclick="window.location.href='fiction.html'">View My Fiction</button>
+        <br><br>
+        <button onclick="window.location.href='blog.html'">Visit My Blog</button>
+        <br><br>
         <div class="icon-container">
-        <a href="https://www.linkedin.com/in/devongwells/"><img src="/images/linkedin.svg"></a> <a href="mailto:devon.wells@gmail.com"><img src="/images/email.svg" style="margin-left: 10px;"></a>
+            <a href="https://www.linkedin.com/in/devongwells/"><img src="/images/linkedin.svg" alt="LinkedIn"></a>
+            <a href="mailto:devon.wells@gmail.com"><img src="/images/email.svg" alt="Email" style="margin-left: 10px;"></a>
         </div>
     </section>
     </section>
     
-   
-<footer>
-    <p>&copy; <span id="year"></span> Devon Wells. All rights reserved.</p>
-</footer>
+    <footer>
+        <p>&copy; <span id="year"></span> Devon Wells. All rights reserved.</p>
+    </footer>
 
-<script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
-
 </html>
