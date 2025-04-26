@@ -1,3 +1,6 @@
+/* Import Poppins from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 /* Reset and Global Styles */
 * {
     margin: 0;
@@ -6,7 +9,7 @@
 }
 
 body {
-    font-family: 'century_gothicregular', Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #fff;
@@ -63,7 +66,7 @@ body {
 
 /* Button */
 button {
-    font-family: 'century_gothicregular', Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 16px;
     background-color: #0097b2;
     color: #fff;
@@ -103,7 +106,7 @@ button:hover {
 
 /* Footer */
 footer {
-    font-family: 'century_gothicregular', Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     max-width: 800px;
     margin: 2rem auto;
     padding-top: 1rem;
